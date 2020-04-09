@@ -1,0 +1,13 @@
+.divAdd{
+border: 5px solid black;
+background-color: gray;
+border-radius: 15px 15px;
+width: 20% !important;
+margin: 10px;
+}
+
+.knopka{
+    background-color: rgb(4, 107, 4);
+    height: 65px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,9 @@
+<div class="divItem">
+                <!-- (click)="onSelected() -->
+<a  class="list-group" [routerLink]="[index]" >
+        <h4 class="list-group-heading h4cSS">{{myEvent.name}}</h4>
+        <!-- <h4 class="list-group-heading">{{myEvent.description}}</h4> -->
+        <img class="img-fluid photo" [src]="myEvent.image" alt="">
+</a>
+</div>
+<button class="btn btn-info btnCss" (click)="onDelete()">Delete</button>

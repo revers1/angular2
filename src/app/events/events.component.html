@@ -1,0 +1,19 @@
+<div class="row">
+    <div class="col-md-2">
+        <app-add-event></app-add-event>
+
+    </div>
+    <div class="col-md-5">
+        <!-- (eventSelected)="temp = $event" -->
+        <app-event-list></app-event-list>
+    </div>
+
+    <div class="col-md-5">
+        <router-outlet></router-outlet>
+    </div>
+    <!-- в цей компонент нада откривать дані -->
+    <!-- <app-event-details *ngIf="temp; else infoText" [eventDetail]="temp"></app-event-details>
+    <ng-template #infoText>
+        <p>TY GOFNO</p>
+    </ng-template> -->
+</div>
