@@ -9,7 +9,7 @@ import { Component } from '@angular/core';
 
 export class AppComponent {
 
-
+// це тест джопи
   title = 'planner-app';
 
 }
